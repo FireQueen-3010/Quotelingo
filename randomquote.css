@@ -1,0 +1,115 @@
+body
+{
+  display: flex;
+  justify-items:center;
+  align-items: center;
+  transition: 0.4s ease-in;
+ }
+ #made-by
+ {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 3px;
+     color: blanchedalmond;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+#quote-box
+{
+  margin-top: 200px;
+  width:500px;
+  flex-direction: column;
+  color: black;
+  margin-bottom: 50px;
+  transition: 0.7s ease-in;
+  padding: 10px;
+  /* border-radius: 15px; */
+ 
+}
+#quote-gen
+{
+    transition: 0.7s ease-in;
+}
+#author
+{
+  margin-left: 65%;
+  align-self: flex-end;
+  transition-delay: 0.3s;
+  transform-style: ease-in-out;
+  font-family: 'Cormorant Garamond', serif;
+}
+  
+
+#text
+{
+    font-family: 'Ubuntu', sans-serif;
+    
+    transition-delay: 0.3s;
+    transform-style: ease-in-out;
+}
+#new-quote
+{
+  border-radius:10px;
+  font-size: 23px;
+transition:0.35s ease-out;
+font-family: 'Ubuntu', sans-serif;
+margin-right: 0px;
+color:white;
+
+  
+}
+#new-quote:hover
+{
+
+font-size: 26px;
+height: 2em;
+width: 7.1em;
+cursor: pointer;
+outline: none;
+color:white;
+
+}
+#btn-box
+{
+  margin-top: 20px;
+  
+}
+#tweet-quote
+{
+  margin-left:12px;
+ 
+}
+#tweet-quote :hover
+{
+ width: 50px;
+ height: 50px;
+ 
+}
+#text
+{
+  font-size: 30px;
+  margin-left: 6px;
+}
+#author
+{
+  font-size: 20px;
+}
+#tweet
+{
+  margin-bottom: -60px;
+  margin-left: -5px;
+  height: 35px;
+  width: 35px;
+  color: #00aced;
+  transition:0.35s ease-out
+  
+}
+#tweet:hover
+{
+    font-size:4em;
+    color:#00aced;
+    
+
+}
+
+#new-quote:focus { outline: none; }
