@@ -1,4 +1,5 @@
-# RandomQuoteGenerator 🧐
+# Quotelingo - Random Quote Generator! 🧐
+https://firequeen-3010.github.io/Quotelingo/ 
 
 An animated random quote generator that changes it's color theme on every single quote using css , html and  vanilla javascript!  🎉
 
