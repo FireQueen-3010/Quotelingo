@@ -13,6 +13,8 @@ body
      margin-top: 3px;
      color: blanchedalmond;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     cursor: pointer;
+     text-decoration: none;
  }
 #quote-box
 {
@@ -23,7 +25,6 @@ body
   margin-bottom: 50px;
   transition: 0.7s ease-in;
   padding: 10px;
-  /* border-radius: 15px; */
  
 }
 #quote-gen
@@ -51,22 +52,17 @@ body
 {
   border-radius:10px;
   font-size: 23px;
-transition:0.35s ease-out;
-font-family: 'Ubuntu', sans-serif;
-margin-right: 0px;
-color:white;
-
+  transition:0.35s ease-out;
+  font-family: 'Ubuntu', sans-serif;
+  margin-right: 0px;
+  color:white;
   
 }
 #new-quote:hover
 {
-
-font-size: 26px;
-height: 2em;
-width: 7.1em;
 cursor: pointer;
 outline: none;
-color:white;
+transform: scale(1.05);
 
 }
 #btn-box
@@ -106,9 +102,7 @@ color:white;
 }
 #tweet:hover
 {
-    font-size:4em;
-    color:#00aced;
-    
+  transform: scale(1.1); 
 
 }
 
